@@ -1,0 +1,50 @@
+h1, p {
+  color: white;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+input {
+  padding: 15px;
+}
+
+p, button, input {
+  font-size: 2em;
+}
+
+body {
+  background-color: #1D2021;
+  text-align: center;
+}
+
+hr {
+  width: 1000px;
+}
+
+a, i {
+  font-size: 4em;
+  color: white;
+  margin: 20px;
+}
+
+button {
+  background: #7b39cc;
+  color: white;
+  padding: 15px;
+  border: 0px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  margin: 20px;
+}
+
+button:active {
+  background: #5e28a1;
+  -webkit-box-shadow: inset 0px 0px 5px #451c78;
+     -moz-box-shadow: inset 0px 0px 5px #451c78;
+          box-shadow: inset 0px 0px 5px #451c78;
+   outline: none;
+}
